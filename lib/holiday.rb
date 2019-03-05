@@ -70,6 +70,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |items|
       if items.include?("BBQ")
         bbq.push(holiday)
+      end
     end
   end
     bbq
