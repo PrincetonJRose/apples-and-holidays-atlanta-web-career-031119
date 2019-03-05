@@ -70,5 +70,6 @@ def all_holidays_with_bbq(holiday_hash)
     if holiday.include?("BBQ")
       bbq.push(holiday)
     end
+  end
     bbq
 end
